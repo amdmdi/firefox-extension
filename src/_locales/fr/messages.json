@@ -1,0 +1,161 @@
+{
+  "extensionName": { "message": "FoxyProxy Standard" },
+  "extensionDescription": { "message": "Outil de gestion de proxy avancé facile à utiliser pour tout le monde" }, //"Easy to use advanced Proxy Management tool for everyone"
+  
+  "extensionNameBasic": { "message": "FoxyProxy Basic" },
+  
+  
+  "error": { "message": "Erreur" }, //"Error" },
+  "erroNoSettings": { "message": "Aucun paramètre n'a pu être trouvé. Veuillez réinstaller FoxyProxy." }, //"No settings could be found. Please re-install FoxyProxy." },
+
+  "deleteAll": { "message": "Supprimer Tout" }, //"Delete All" },
+  "export": { "message": "Exporter" },
+  "import": { "message": "Importer" },
+  "log": { "message": "Log" },
+  "myIP": { "message": "Quelle est mon IP?" }, // "What's My IP?" },
+  "deleteAllmessage": { "message": "Toutes les données ont été supprimées" }, //"All data deleted" },
+  
+  "authError": { "message": "$1 refuse les connexions\nVérifiez le nom d'utilisateur/mot de passe du proxy" }, //"$1 is refusing connections\nCheck proxy username/password" },
+  
+  
+  "delete": { "message": "Supprimer" },// "Delete" }, 
+  "deleteNot": { "message": "Ne pas supprimer" }, //"Do Not Delete" },
+  "deleteBrowserData": { "message": "Supprimer les données du navigateur" }, //"Delete Browser Data" },
+  "deleteBrowserDataDescription": { "message": "Cache, Cookies, Stockage IndexedDB, Stockage local DOM, Données de plug-in, Données de Service Worker."}, // "Cache, cookies, indexedDB storage, DOM local storage, plugin data, service worker data." },
+  "deleteBrowserDataNotDescription": { "message": "Mots de passe stockés, Historique de navigation et formulaires, Historique de téléchargement, WebSQL et certificats de serveurs." }, // "Stored passwords, browsing and form history, download history, webSQL, and server-bound certificates." },
+  "done": { "message": "Terminé!" },// "Done!" },
+  
+  "about": { "message": "À propos" },//"About" },
+  "syncSettings": { "message": "Synchroniser les paramètres" }, //""Synchronize Settings" },
+  "syncSettingsHelp": { "message": "Activez pour utiliser Firefox Sync (les paramètres sont synchronisés sur tous vos navigateurs Firefox). Désactivez-le pour stocker les paramètres localement. Notez que vous pouvez avoir deux instances différentes de paramètres, une synchronisée et une locale." },
+     // "Turn on to use Firefox Sync (settings are synchronized across all your Firefox browsers). Turn off to store settings locally. Notice you can have two different instances of settings, one sync and one local." },
+//  "onOff": { "message": "On/Off" },
+  "on": { "message": "On" },
+  "off": { "message": "Off" },
+  "confirmTransferToLocal": { "message": "Souhaitez-vous transférer les paramètres synchronisés vers votre profil local ?\nLes données existantes seront fusionnées." }, // "Would you like to transfer the synced settings to your local profile?\nExisting Data will be merged." },
+  "confirmTransferToSync": { "message": "Souhaitez-vous transférer les paramètres locaux vers votre profil synchronisé ?\nLes données existantes seront fusionnées." }, //"Would you like to transfer the local settings to your synced profile?\nExisting Data will be merged." },
+  
+  "modePatterns": { "message": "Utiliser les proxies activés par modèles ? pattern ? et par ordre" }, // "Use Enabled Proxies By Patterns and Order" },
+  "modeDisabled": { "message": "Désactiver (Utiliser les paramètres de Firefox)" }, // "Turn Off (Use Firefox Settings)" },
+  "forAll": { "message": "pour toutes les URLs" }, // "for all URLs" },
+  "noProxies": { "message": "Vous n'avez aucun paramètre de proxy." }, // You do not have any proxy settings."},
+
+  
+  
+  "edit": { "message": "Modifier" }, // "Edit" },
+  "patterns": { "message": "Motifs" }, // "Patterns" },
+  "confirmDelete": { "message": "Etes-vous sûr de vouloire supprimer ?" }, // "Are you sure you want to delete?" },
+  
+  "addProxy": { "message": "Ajouter un proxy" }, // "Add Proxy" },
+  "editProxy": { "message": "Modifier le proxy $1" }, // "Edit Proxy $1" },
+  
+  
+  "editPatterns": { "message": "Modifier les pattern" }, // "Edit Patterns" },
+  "editPatternsFor": { "message": "Modifier les pattern de $1" }, // "Edit Patterns of $1" },
+  
+  
+  "errorWas": { "message": "Une erreur s'est produite. Veuillez réessayer." }, // "There was an error. Please try again." },
+  "errorSlash": { "message": "Les motifs génériques ne peuvent pas contenir des barres obliques. Vous ne pouvez pas faire correspondre les chemins d'URL en raison des restrictions de Firefox." }, // "No slash in wildcard patterns. You cannot match URL paths because of Firefox restrictions." },
+  "errorEmpty": { "message": "Le champ ne peut pas être vide." }, //"Field can not be empty." },
+
+
+  "importEnd": { "message": "Les paramètres ont été importés avec succès" }, // "Settings were successfully imported" },
+  "patternsChanged": { "message": "Certains modèles ont été modifiés car ils contenaient des barres obliques. Les barres obliques dans les modèles ne sont plus prises en charge." }, // "Some patterns were changed because they contained slashes. Slashes in patterns are not supported anymore." },
+  "importEndSlash": { "message": "Importation terminée. Les barres obliques dans les modèles ne sont pas prises en charge en raison d'un bogue Firefox. Veuillez revoir vos modèles et supprimer les barres obliques, le cas échéant." }, // "Import finished. Slashes in patterns are not supported because of a Firefox bug. Please review your patterns and remove slashes, if any." },
+  "errorUserPass": { "message": "Veuillez saisir le nom d'utilisateur et le mot de passe." }, // "Please enter both Username & Password." },
+  "errorFetch": { "message": "Il y a eu une erreur avec l'opération" }, // "There was an error with the operation" },
+
+
+  "errorPattern": { "message": "Veuillez saisir un motif" }, // "Please enter a pattern" },
+  "importBW": { "message": "$1 motifs importés dans la liste blanche et $2 dans la liste noir." }, // "Imported $1 white and $2 black patterns." },
+
+  "up": { "message": "Vers le haut" }, // "move up" },
+  "down": { "message": "Vers le bas" }, // "move down" },
+
+  "disabled": { "message": "Désactivé" }, // "Disabled" },
+  "active": { "message": "Activé" }, // "Enabled" },
+	"activeNote": { "message": "FoxyProxy ignore tout sur cette page sauf s'il est défini sur" }, // "FoxyProxy ignores everything on this page unless set to" },
+  "noMatch": { "message": "Pas de concordance" }, // "No Match" },
+  "none": { "message": "Aucune" }, // "None" },
+
+  "name": { "message": "Nom" }, // "Name" },
+  "pattern": { "message": "Motif" }, // "Pattern" },
+  "type": { "message": "Type" },
+  "protocol": { "message": "Protocole" }, // ""Protocol" },
+  "whitePatterns": { "message": "Motifs blancs" }, // "White Patterns" },
+  "blackPatterns": { "message": "Motifs noirs" }, // "Black Patterns" },
+  "importedPattern": { "message": "Ce modèle a été importé d'une ancienne version de FoxyProxy et modifié lors de l'importation. Voici le modèle original, inchangé:" }, // "This pattern was imported from an older version of FoxyProxy and changed during import. Here is the original, unchanged pattern:" },
+
+
+  "patternMatch": { "message": "Le motif correspond à l'URL!" }, // "Pattern matches URL!" },
+  "patternNotMatch": { "message": "Le motif ne correspond pas à l'URL." }, // "Pattern does not match URL." },
+  "errorProtocol": { "message": "Le protocole ne correspond pas." }, // "Protocol does not match." },
+
+
+
+  "proxyType": { "message": "Type de proxy" }, // "Proxy Type" },
+  "color": { "message": "Couleur" }, // "Color" },
+  "patternShortcuts": { "message": "Raccourcis de motif" }, // "Pattern Shortcuts"}, 
+  "title": { "message": "Titre ou description (facultatif)" }, // "Title or Description (optional)" },
+  "ip": { "message": "Adresse IP proxy ou nom DNS" }, // "Proxy IP address or DNS name" },
+  "port": { "message": "Port" },
+  "username": { "message": "Nom d'utilisateur (facultatif)" }, // "Username (optional)" },
+  "password": { "message": "Mot de passe (facultatif)" }, // "Password (optional)" },
+  "togglePW": { "message": "Activer le mot de passe" }, // "Toggle Password" },
+  
+  "addWhitelist": { "message": "Ajouter un motif de liste blanche pour correspondre à toutes les URL" }, // ""Add whitelist pattern to match all URLs" },
+  "noLocal": { "message": "Ne pas utiliser pour les adresses IP localhost et intranet / privé" }, // "Do not use for localhost and intranet/private IP addresses" },
+  
+  
+
+  "patternTester": { "message": "Testeur de motifs" }, // "Pattern Tester" },
+  "patternHelp": { "message": "Aide sur les motifs" }, // "Pattern Help" },
+  "welcome": { "message": "Bienvenu" }, // "Welcome" },
+  "options": { "message": "Options" },
+  "optionsPage": { "message": "Options de FoxyProxy" }, // "FoxyProxy Options" },
+  "enterUrl": { "message": "Saisir l'URL à tester" }, // "Enter URL to test" },
+  "enterUrlNote": { "message": "les chemins et les paramètres de requête sont ignorés" }, // "(paths and query parameters are ignored)" },
+  "patternDetail": { "message": "Saisissez les détails du modèle." }, // "Enter pattern details." },
+  "patternNote": { "message": "(pas de chemins, pas de paramètres de requête)" }, // "(no paths, no query parameters)" },
+  "clickTest": { "message": "Cliquez sur 'Tester' lorsque vous êtes prêt" }, // ""Click 'Test' when ready" },
+  
+
+  
+  
+  
+  
+
+  "ok": { "message": "OK" },
+  "clear": { "message": "Effacer" }, // "Clear" },
+  "refresh": { "message": "Rafraîchir" }, // "Refresh" },
+  "cancel": { "message": "Annuler" }, // "Cancel" },
+  "back": { "message": "Retour" }, // "Back" },
+  "test": { "message": "Tester" }, // "Test" },
+  "help": { "message": "Aide" }, // "Help" },
+  "importPatterns": { "message": "Importer Motifs" }, // "Import Patterns" },
+  "exportPatterns": { "message": "Importer Motifs" }, // "Export Patterns" },
+  "newWhite": { "message": "Nouveau blanc" }, // "New White" },
+  "newBlack": { "message": "Nouveau noir" }, // "New Black" },
+  "save": { "message": "Enregistrer" }, // "Save" },
+  "add": { "message": "Ajouter" }, // "Add" },
+  "saveAdd": { "message": "Enregistrer et ajouter un autre" }, // "Save & Add Another" },
+  "saveEditPattern": { "message": "Enregistrer et modifier les motifs" }, // "Save & Edit Patterns" },
+  "imported": { "message": "Importés" }, // "Imported" },
+  "addBlacklistTip": { "message": "Ajouter motif de liste noire pour localhost, 127.0.0.1, 192.168.*.*, 172.16.*.*, & 10.*.*.*" }, // "Add blacklist patterns for localhost, 127.0.0.1, 192.168.*.*, 172.16.*.*, & 10.*.*.*" },
+  "addBlacklist": { "message": "Ajoutez des motifs noirs pour empêcher l'utilisation de ce proxy pour localhost et les adresses IP intranet/privées" }, // "Add black patterns to prevent this proxy being used for localhost & intranet/private IP addresses" }, // 
+  "addWhitelistTip": { "message": "Ajouter un motif de liste blanche" }, // "Add whitelist pattern *" },
+  "patternCheatSheet":  { "message": "Antisèche de motifs" }, // "Pattern Cheat Sheet" },
+  
+  "logSize": { "message": "Taille de log" }, // "Log Size" },
+  "url": { "message": "URL" },
+  "proxyTitle": { "message": "Nom du proxy" }, // "Proxy Title" },
+  "proxyAddress": { "message": "Adresse du proxy" }, // "Proxy Address" },
+  "matchPattern": { "message": "Motif" }, // "Match Pattern" },
+  "whiteBlack": { "message": "Blanc/Noir" }, // "White/Black" },
+  "white": { "message": "Blanc" }, // "White" },
+  "black": { "message": "Noir" }, // "Black" },
+  "timestamp": { "message": "Timestamp" },
+  "notApplicable": {"message": "n/a"},
+  "matchedURLs": {"message": "URL qui correspondent aux motifs" }, // "URLs That Matched Patterns"},
+  "unmatchedURLs": {"message": "URL qui ne correspondent pas aux motifs" } // "URLs That Did Not Match Patterns"}
+} 
